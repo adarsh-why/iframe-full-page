@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "AvenirNext";
+    src: url("AvenirNext-Regular.cdd2f19b.woff") format('woff');
+}
+
+@font-face {
+    font-family: "AvenirNext";
+    src: url("AvenirNext-DemiBold.a2131b75.woff") format('woff');
+    font-weight: bold;
+}
+
+html, body {
+    color: rgb(51, 51, 51);
+    overflow: auto !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: AvenirNext,Helvetica,sans-serif;
+}
+
+html, body, #root {
+    /*min-height: 100vh;*/
+    background-color: #f7f8f7;
+    position: relative;
+    /*z-index: 0;*/
+}
+
+div {
+    display: block;
+}
+
+.hfVvZD {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px auto;
+    background: rgb(247, 248, 247);
+}
+
+.hGzbDE {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.24) 0px 2px 2px 0px;
+    position: relative;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 2px;
+    margin: 0.2em;
+    padding: 10px;
+}
+
+.hfVvZD .loginContainer {
+    min-height: 627px;
+    width: 617px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 8px 3px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 0px auto;
+    flex-flow: column;
+}
+
+.hfVvZD .loginContainer .logo {
+    height: auto;
+    max-width: 78px;
+    width: 100%;
+    margin-bottom: 74px;
+    padding: 16px;
+}
+
+.hfVvZD .loginContainer .loginMessage {
+    color: rgb(51, 51, 51);
+    text-align: center;
+    /* new style */
+    width: 80%;
+}
+.hfVvZD .loginContainer .loginMessage span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hfVvZD .loginContainer .loginMessage p {
+    /* font-size: 14px; */
+    opacity: 0.8;
+    margin: 16px auto;
+}
+
+.hfVvZD .loginContainer .locationPicker {
+    margin-bottom: 24px;
+
+}
+
+
+.hfVvZD .loginContainer .google-login {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #e73e51;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: #666;
+     cursor: pointer;
+}
+
+/* new styles */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#iframe{
+    display: none;
+}
+
+.iframe{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 1;*/
+    /*width: 100%;*/
+    width: 1px !important;
+    min-width: 100%;
+    *width: 100%;
+    min-height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+}
